@@ -2,7 +2,7 @@
  * Created by Shiah on 2017/4/14.
  */
 import React from "react";
-import Remotes from "./Remotes";
+import TabBarIos from "./TabBarIos";
 
 /**
  * Program entries.
@@ -15,7 +15,7 @@ export default class Layout extends React.Component {
              * Render function
              * @returns {XML}
              */
-            <Remotes />
+            <TabBarIos />
         );
     }
 }
